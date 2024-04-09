@@ -2,4 +2,4 @@
 
 A simple rock paper scissors game built with react native.
 
-I made this app just to testing publishing apps on google play.
+I made this app just to test publishing apps on google play.
