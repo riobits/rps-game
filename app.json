@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "xo-app",
-    "slug": "xo-app",
+    "name": "Rock Paper Scissors",
+    "slug": "rps-game",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.riobits.tttgame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "892b7471-056b-4b39-9796-aec6648380c9"
+      }
     }
   }
 }
